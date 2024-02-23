@@ -15,3 +15,5 @@ Duplicate the .env.example file and rename it to .env. Fill in the required fiel
 ```bash
 pip install -r requirements.txt
 ```
+## Author
+- [Gustavo Selman Valenzuela](https://github.com/gustavoselman)
