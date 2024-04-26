@@ -16,4 +16,6 @@ Duplicate the .env.example file and rename it to .env. Fill in the required fiel
 pip install -r requirements.txt
 ```
 ## Author
-- [Gustavo Selman Valenzuela](https://github.com/gustavoselman)
+Gustavo Selman Valenzuela:
+- [Github](https://github.com/gustavoselman)
+- [LinkedIn](https://www.linkedin.com/in/gustavo-selman)
