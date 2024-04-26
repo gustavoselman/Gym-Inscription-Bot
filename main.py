@@ -84,7 +84,7 @@ def run_bot(username, password, day, schedule):
     bot = GymInscriptionBot(username, password)
     while True:
         bot.click_on_class_by_day_and_schedule(day, schedule)
-        # bot.driver.refresh()
+        bot.driver.refresh()
         bot.driver.get('https://intranet.upv.es/pls/soalu/sic_depact.HSemActividades?p_campus=V&p_tipoact=6690&p_codacti=21229&p_vista=intranet&p_idioma=c&p_solo_matricula_sn=&p_anc=filtro_actividad')
         sleep(1)
 
@@ -93,10 +93,10 @@ if __name__ == "__main__":
     password = os.getenv("PASSWORD")
 
     classes = [
-        ("Lunes", "16:30-17:30"),
+        ("Lunes", "14:30-15:30"),
         ("Martes", "14:30-15:30"),
-        ("Miércoles", "15:30-16:30"),
-        ("Jueves", "16:30-17:30"),
+        ("Miércoles", "14:30-15:30"),
+        ("Jueves", "13:30-14:30"),
         ("Viernes", "13:30-14:30"),
     ]
 
